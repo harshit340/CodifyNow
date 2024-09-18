@@ -1,0 +1,106 @@
+/* Center text and margin bottom */
+.custom-container {
+  text-align: center;
+  
+}
+
+/* Badge styling: inline-block, background, border radius, padding, font size, font weight, text color, and relative positioning */
+.custom-badge {
+  display: inline-block;
+  background-color: #e5e7eb; /* bg-gray-200 */
+  border-radius: 9999px; /* rounded-full */
+  padding: 0.25rem 0.75rem; /* px-3 py-1 -> padding-left/right: 0.75rem; padding-top/bottom: 0.25rem */
+  font-size: 1.4rem; /* text-sm */
+  font-weight: 600; /* font-semibold */
+  color: #374151; /* text-gray-700 */
+  position: relative;
+}
+
+/* Checkmark styling: absolute positioning, top/right positioning, and text color */
+.custom-checkmark {
+  position: absolute;
+  top: -0.25rem; /* -top-1 */
+  right: -0.25rem; /* -right-1 */
+  color: #f97316; /* text-orange-500 */
+}
+
+/* styles.css */
+.main-heading {
+  font-size: 4rem; /* Adjust the size as needed */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0.5rem; /* Adjust the margin as needed */
+}
+
+.highlight {
+  color: #f97316; /* Equivalent to Tailwind's 'text-orange-500' */
+}
+
+.sub-heading {
+  font-size: 2.5rem; /* Adjust the size as needed */
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 3rem; /* Adjust the margin as needed */
+}
+
+
+/* WhyChooseUs.css */
+
+.why-choose-us {
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  max-width: 250px;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.icon-container img {
+  width: 50px;
+  height: 50px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.card-description {
+  font-size: 0.875rem;
+  color: #555;
+}
+
+
+

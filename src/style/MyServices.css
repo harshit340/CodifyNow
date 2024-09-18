@@ -1,0 +1,70 @@
+.services-container {
+    background-color: #1a1a1a; /* Dark background color */
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .services-container h2 {
+    font-size: 24px;
+  }
+  
+  .services-container h2 span {
+    color: #ff4500; /* Accent color */
+  }
+  
+  .services-description {
+    margin: 10px 0 30px;
+    color: #999; /* Lighter text for description */
+  }
+  
+  .services-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service-card {
+    background-color: #333; /* Card background color */
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    width: 30%;
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .service-card.active {
+    background-color: #ff4500; /* Active card background color */
+  }
+  
+  .service-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .service-card h3 {
+    margin-top: 20px;
+    font-size: 18px;
+  }
+  
+  .service-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .service-button:hover {
+    background-color: #ff6347; /* Button hover color */
+  }
+  

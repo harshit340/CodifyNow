@@ -1,0 +1,35 @@
+/* Styling for the navigation bar */
+.nav-container {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    border-radius: 99px; /* Full rounded */
+    /* margin: 1rem 1rem 0 1rem; */ /* Equivalent to mx-4 (horizontal margin) and mt-4 */
+  }
+  
+  /* Styling for the unordered list */
+  .nav-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 18px; /* Equivalent to text-sm */
+    font-weight: 700;
+  }
+  
+  /* Special styles for "Home" link */
+  .nav-item-home {
+    color: #f97316; /* Equivalent to text-orange-500 */
+  }
+  
+  /* Special styles for "Jenny" link */
+  .nav-item-Codify {
+    background-color: #f97316; /* Equivalent to bg-orange-500 */
+    border-radius: 9999px; /* Full rounded */
+    padding: 0.25rem 1rem; /* Equivalent to px-3 py-1 */
+    font-size: 25px;
+  }
+
+  li{
+    list-style-type: none;
+  }
+  
