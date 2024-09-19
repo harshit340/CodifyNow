@@ -1,5 +1,5 @@
 .carousel-container {
-    width: 750px;
+    max-width: 750px;
     margin: 0 auto;
     padding: 40px;
   }
@@ -10,10 +10,10 @@
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
-    max-width: 900px;
+    max-width: 100%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     text-align: center;
-    height: 25vh;
+    height: 30vh;
   }
   
   .testimonial-stars {
@@ -52,5 +52,30 @@
   .testimonial-position {
     font-size: 12px;
     color: #ccc;
+  }
+
+
+
+  @media (max-width: 450px){
+    .testimonial-card {
+    
+      height: 40vh;
+    }
+
+    .carousel-container {
+      max-width: 450px;
+      
+    }
+  }
+  @media (max-width: 375px){
+    .testimonial-card {
+    
+      height: 50vh;
+    }
+
+    .carousel-container {
+      max-width: 450px;
+      
+    }
   }
   

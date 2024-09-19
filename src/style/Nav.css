@@ -10,11 +10,13 @@
   /* Styling for the unordered list */
   .nav-list {
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
     font-size: 18px; /* Equivalent to text-sm */
     font-weight: 700;
   }
+  
   
   /* Special styles for "Home" link */
   .nav-item-home {
@@ -31,5 +33,27 @@
 
   li{
     list-style-type: none;
+  }
+
+
+  
+  @media (max-width: 450px){
+    .nav-list2 {
+     display: none;
+    }
+    li:not(:first-child) {
+      display: none;
+    }
+
+    .nav-list{
+      padding: 0px;
+    }
+
+  }
+  @media (max-width: 750px){
+    li:not(:first-child):not(:nth-last-child(-n+2)) {
+      display: none;
+  }
+
   }
   

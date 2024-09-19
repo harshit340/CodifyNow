@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 
 import '../style/footer.css'; 
 
@@ -20,7 +21,7 @@ export default function Footer() {
               Have a project in mind? Get in touch and let's create something amazing together.
             </p>
             <form className="footer-form" >
-              <div className="footer-form-grid">
+              
                 <input
                   type="text"
                   placeholder="Your Name"
@@ -30,9 +31,9 @@ export default function Footer() {
                 <input
                   type="email"
                   placeholder="Your Email"
-                  className="footer-input" style={{marginTop:"15px",color:"white"}}
+                  className="footer-input" style={{color:"white" }}
                 />
-              </div>
+              
               <input
                 type="tel"
                 placeholder="Your Phone Number"
@@ -45,12 +46,7 @@ export default function Footer() {
                 className="footer-input"
                 style={{color:"white"}}
               />
-              <textarea
-                placeholder="Your Message"
-                rows={4}
-                className="footer-input resize-none"
-                style={{color:"white"}}
-              ></textarea>
+              
               <button
                 type="submit"
                 className="footer-button"

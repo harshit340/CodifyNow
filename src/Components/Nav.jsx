@@ -6,13 +6,15 @@ export default function Nav() {
       <nav className="nav-container">
   <ul className="nav-list">
   <li className="nav-item-Codify">CodifyNow</li>
+ 
     <li>Home</li>
     <li>About</li>
     <li>Service</li>
-    {/* <li className="nav-item-Codify">CodifyNow</li> */}
     <li>Testimonials</li>
     <li>Chat</li>
     <li>Call : +91 8553487848</li>
+  
+    
   </ul>
 </nav>
 

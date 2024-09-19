@@ -12,7 +12,7 @@ export default function App() {
   return (
     <div>
       <Nav />
-      <main>
+      <main >
         <div className="custom-container" style={{ marginTop: "40px" }}>
           <span className="custom-badge">
             Hello!
@@ -24,10 +24,34 @@ export default function App() {
           We are <span className="highlight">CodifyNow</span>
         </h1>
         <h2 className="sub-heading" style={{ fontSize: "30px", color: "black", fontWeight: "bold" }}>We Works with heart</h2>
-        <div style={{marginTop:"-30px"}}>
-        <Form />  
-        </div>
+
+       
+          <Form  />
+
+
+      
+        <div className="Rating" style={{marginBottom:"20px"}} >
+           
+           <div>
+            <div>100+</div>
+           <div>Client Served</div>
+           </div>
+           
+          
+           <div>Clients in 15+ Countrie</div>
+          
+            <div >
+              <div>20+</div>
+              <div>Industry Covered</div>
+            </div>
+            
+          
+         
+           
         
+        </div>
+
+
         <div className="why-choose-us">
           <h2 className="section-title" style={{ color: "black" }}>Why Choose Us</h2>
           <p style={{ fontSize: "18px", fontWeight: 400, marginBottom: "40px", color: "GrayText" }}>
@@ -63,24 +87,24 @@ export default function App() {
             </div>
           </div>
         </div>
-        <div style={{marginTop:"60px"}}>
-         <MyServices/> 
+        <div style={{ marginTop: "60px" }}>
+          <MyServices />
         </div>
-        
-        <div style={{marginTop:"90px"}} >
-          <div style={{display:"flex" , flexDirection:"column" , justifyContent:"center" ,  alignContent:"center" ,alignItems:"center" , fontSize:"40px" , marginTop:"60px" , fontWeight:700 , }}>
-             <div>
-            Testimonials that
+
+        <div style={{ marginTop: "90px" }} >
+          <div style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignContent: "center", alignItems: "center", fontSize: "40px", marginTop: "60px", fontWeight: 700, }}>
+            <div>
+              Testimonials that
+            </div>
+            <div>
+              Speak to <span style={{ color: "orange" }}>My Results</span>
+            </div>
           </div>
-          <div>
-            Speak to <span style={{ color: "orange" }}>My Results</span>
-          </div>
-          </div>
-         
-          <Testimonial />
+
+           <Testimonial />
         </div>
-        <div style={{marginTop:"60px"}}>
-          <Footer/>
+        <div style={{ marginTop: "60px" }}>
+          <Footer />
         </div>
       </main>
     </div>
